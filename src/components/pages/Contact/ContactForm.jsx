@@ -40,9 +40,9 @@ export default function ContactForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         const emailjsParams = {
-            service_id: 'service_ssqspac',
-            template_id: 'template_eamthdw',
-            user_id: 'kNBj24Ut3z7sfMUAU',
+            service_id: process.env.REACT_APP_EMAILJS_SERVICE_ID,
+            template_id: process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+            user_id: process.env.REACT_APP_EMAILJS_PUBLIC_ID,
             template_params: {
                 to_name: "Shivansh Mishra",
                 from_name: formData.name,
