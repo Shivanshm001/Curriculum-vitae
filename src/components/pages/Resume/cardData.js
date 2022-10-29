@@ -1,43 +1,22 @@
 const resumeData = [
     {
-        title: "Work Expreince",
-        title_name: "work_expreince",
-        workData: [
-            {
-                iNo: 1,
-                startYear:"2022",
-                endYear: "",
-                workedAs: "Front end devloper",
-                workInfo: "Create and impliment new features in website and fix UI releated issuses."
-            }
-
-        ]
-    },
-    {
         title: "Education",
         title_name: "education",
         workData: [
             {
                 iNo: 1,
                 startYear:"2017",
-                endYear: "2020",
+                endYear: "2019",
                 workedAs:"10 + 2 from Science(non-medical) ",
-                workInfo:"Govt model senior secondary school sector 19D, Chandigarh"
+                workInfo:"Govt Model Senior Secondary School, Sector 19D, Chandigarh"
             },
             {
                 iNo: 2,
-                startYear:"2017",
-                endYear: "2020",
-                workedAs:"10 + 2 from Science(non-medical) ",
-                workInfo:"Govt model senior secondary school sector 19D, Chandigarh"
+                startYear:"2020",
+                endYear: "2023",
+                workedAs:"Bachelor's in Computer Application (BCA)",
+                workInfo:"Sri Guru Gobind Singh (Khalsa) College,Sector 26, Chandigarh"
             },
-            {
-                iNo:3,
-                startYear:"2017",
-                endYear: "2020",
-                workedAs:"10 + 2 from Science(non-medical) ",
-                workInfo:"Govt model senior secondary school sector 19D, Chandigarh"
-            }
         ]
     }
 ]
